@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - ShopHorizon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="product-detail">
+        <img src="laptop1.jpg" alt="Product Image">
+        <div class="details">
+            <h2> HP Laptop</h2>
+            <p>HP 15, 12th Gen Intel Core i5-1235U, 16GB DDR4, 512GB SSD, (Win 11, Office 21 , Siver, 1.69kg), HD Camera, Backlit Keyboard , fy5009tu.</p>
+            <p><strong>Price: $20.00</strong></p>
+            <button onclick="addToCart('Product 1', 20)">Add to Cart</button>
+        </div>
+    </section>
+    
+    
+    <section class="cart-container">
+        <div id="cart">
+            <h2>Your Cart</h2>
+            <p>Your cart is empty.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 ShopHorizon</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
